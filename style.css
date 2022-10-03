@@ -1,0 +1,89 @@
+body {
+    background-color:bisque;
+    color:black;
+    font-family: Calibri;
+    margin: 2rem   
+
+}
+
+header {
+    font-size:300%; 
+    color:brown; 
+    font-family:brush script MT; 
+    text-align: center;
+    font-weight: 600;
+}
+
+h2 {
+    text-decoration: overline;
+    
+}
+
+p {
+    text-align: justify;
+}
+
+.standard_p{
+    text-indent: 3em;
+}
+
+#subtitle {
+    font-family:Brush script MT; 
+    font-size:150%; 
+    text-align:center;
+}
+
+#Outline {
+    background-color: black;
+    color: white;
+    margin: 2em;
+    padding: 2em;
+    font-family:monospace;
+}
+
+li{
+    list-style-type: "📌 ";
+}
+
+hr {
+    border: 1px solid black;
+}
+
+button {
+    font-size: medium;
+    background-color: bisque;
+    color: black;
+    border: 2px solid black;
+    padding: 1rem;
+    transition-duration: 0.4s;  
+
+}
+
+button:hover {
+    background-color: gray;
+    color: white;
+    border-color: white;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white
+}
+
+section {
+    display: flex;
+    width:fit-content;
+    margin: auto
+
+}
+
+div {
+    font-size: 2rem;
+    padding: 1em;
+    text-align: center;
+}
+
