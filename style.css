@@ -41,7 +41,7 @@ p {
     font-family:monospace;
 }
 
-li{
+ul{
     list-style-type: "📌 ";
 }
 
@@ -49,7 +49,7 @@ hr {
     border: 1px solid black;
 }
 
-button {
+.button_link {
     font-size: medium;
     background-color: bisque;
     color: black;
@@ -59,31 +59,60 @@ button {
 
 }
 
-button:hover {
+.button_link:hover {
     background-color: gray;
     color: white;
     border-color: white;
 }
 
-a {
+.link {
     color:black;
     text-decoration: none;
 }
 
-a:hover {
+.link:hover {
     color: white
 }
 
-section {
+#button_links_sec {
     display: flex;
     width:fit-content;
     margin: auto
 
 }
 
-div {
+.flex_1 {
     font-size: 2rem;
     padding: 1em;
     text-align: center;
+}
+
+#menu_bar_sec {
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 20px
+}
+
+.menu_div {
+    font-size: 2rem;
+    padding: 1rem;
+    flex: 1 ;
+    background-color: black
+}
+
+.menu_icon {
+    text-decoration: none;
+    color: white
+    
+}
+
+.menu_div:nth-of-type(1):hover {background-color: rgb(104, 46, 46);}
+.menu_div:nth-of-type(2):hover {background-color: rgb(54, 54, 79);}
+.menu_div:nth-of-type(3):hover {background-color: rgb(48, 70, 48);}
+.menu_div:nth-of-type(4):hover {background-color: rgb(48, 44, 37);}
+
+table {
+    margin: auto
 }
 
