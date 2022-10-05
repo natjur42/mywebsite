@@ -3,7 +3,7 @@ body {
     color:black;
     font-family: Calibri;
     margin: 2rem;   
-    font-size: 1.5m
+    font-size: 1rem
 
 }
 
@@ -144,4 +144,25 @@ table, th, td {border: 1px solid black}
     background-color: white;
 }
 
+.image_text_table {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
 
+.column {
+    flex: 50%;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.image_text_table_item img {
+    width: 100%
+
+}
+
+.image_text_table_item {
+    flex: 1;
+    margin: auto;
+}
