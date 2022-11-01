@@ -1,8 +1,10 @@
 name: Example Release
-on: push:
+on:
+  push:
     tags:
-      - 'release/v*'
-jobs: build:
+      - "release/v*"
+jobs:
+  build:
     runs-on: ubuntu-latest
     permissions:
       contents: read
