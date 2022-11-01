@@ -1,14 +1,17 @@
 name: Example Release
+
 on:
   push:
     tags:
       - "release/v*"
+
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
       contents: read
       packages: write
+
     steps:
       - name: Remove unused build gunk from runner
         run: |
