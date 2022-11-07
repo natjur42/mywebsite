@@ -52,11 +52,16 @@ p {
 }
 
 ul {
-  list-style-type: "📌 ";
+  list-style-type: circle;
 }
 
 hr {
   border: 1px solid black;
+}
+
+.img-zilina {
+  width: auto;
+  padding-top: 2rem;
 }
 
 /* buttons and links */
